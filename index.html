@@ -1,95 +1,146 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Check out my portfolio and creative projects including programming, art, and more.">
-	<meta property="og:site_name" content="💜💙💚 Clayton Seelenmayer 💚💙💜">
-	<meta property="og:title" content="">
-	<meta property="og:description" content="Check out my portfolio and creative projects including programming, art, and more.">
-	<meta property="og:image" content="https://seelenmayer.github.io/Assets/public.png">
-	<meta property="og:url" content="https://seelenmayer.github.io/index.html">
-	<meta property="og:type" content="website">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Clayton Seelenmayer">
-	<meta name="twitter:description" content="Check out my portfolio and creative projects including programming, art, and more.">
-	<meta name="twitter:image" content="https://seelenmayer.github.io/Assets/public.png">
-	<meta name="twitter:url" content="https://x.com/seelenmayer">
-	<title>💜 𝓒𝓵𝓪𝔂𝓽𝓸𝓷 💜</title>
-	<link rel="icon" href="Assets/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strafe Records</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Black background */
+      color: #fff;
+      font-family: 'Arial Black', Gadget, sans-serif;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f0, #00f, #f00); /* Green to Blue to Red */
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid #0f0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      text-shadow: 2px 2px #000;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #0f0;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #f00;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #1a1a1a;
+    }
+
+    .intro p {
+      font-size: 1.4em;
+      color: #ccc;
+    }
+
+    .socials {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .socials a {
+      display: inline-block;
+      margin: 10px;
+      color: #fff;
+      font-size: 1.5em;
+      text-decoration: none;
+      border: 2px solid #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .socials a:hover {
+      background-color: #0f0;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-	<a href="index.html" class="headerlink">
-		<header>
-			<h1>shelly</h1>
-		</header>
-	</a>
-	<div class="tabs">
-		<a href="index.html" class="selected_tab">Home</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="resume.html">Resume</a>
-		<a href="contact.html">Contact</a>
-	</div>
-	<div class="page">
-		<nav>
-			<div class="navcenteredtext">
-				<h1>Social Media</h1>
-			</div>
-			<ul>
-				<li class="navsociallink">
-					<a href="https://www.linkedin.com/in/claytonseelenmayer/">
-						<img src="Assets/icons8-linkedin.png" alt="[Linkedin Logo]">
-						<span>LinkedIn</span>
-					</a>
-				</li>
-				<li class="navsociallink">
-					<a href="https://github.com/Seelenmayer">
-						<img src="Assets/icons8-github.png" alt="[X Logo]">
-						<span>Github</span>
-					</a>
-				</li>
-				<li class="navsociallink">
-					<a href="https://x.com/seelenmayer">
-						<img src="Assets/icons8-x.png" alt="[X Logo]">
-						<span>X</span>
-					</a>
-				</li>
-				<li class="navsociallink">
-					<a href="https://bsky.app/profile/seelenmayer.bsky.social">
-						<img src="Assets/icons8-bluesky.png" alt="[Bluesky Logo]">
-						<span>Bluesky</span>
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<main>
-			<div>
-				<h1>Welcome!</h1>
-				<p>Thank you for taking the time to visit my webpage.</p>
-				<p>
-					My name is Clayton, and I am a dedicated graphics programmer and software engineer passionate about creating innovative tools
-					that empower both artists and developers to enhance their creative workflows. From software engineering to generative 3D art,
-					I thrive at the intersection of technical precision and artistic expression, bridging the gap between technology and creativity.
-				</p>
-				<p>
-					Feel free to explore my portfolio to discover my programming and art projects. For updates on my latest technical work,
-					follow me on social media. You can also view my employment history on my resume page or reach out through my contact page.
-				</p>
-				<p>I look forward to connecting with you!</p>
-				<p>~ C.S.</p>
-				<div class="displaymediacontainer">
-					<div class="displaymediawrapper">
-						<a href="Assets/clay.jpg" target="_blank">
-							<img src="Assets/clay.jpg" alt="[Max]" class="displaymedia">
-							<img src="Assets/imageoverlay.png" class="displaymediaoverlay">
-						</a>
-					</div>
-					<!-- <div class="displaymediadescription">clay.jpg</div> -->
-				</div>
-			</div>
-			<div class="separator"></div>
-		</main>
-	</div>
+
+  <header>
+    <h1>Strafe Records</h1>
+  </header>
+
+  <nav>
+    <a href="#merch">Merch</a>
+    <a href="#beats">Beats</a>
+    <a href="#studio">Studio</a>
+    <a href="#samples">Samples</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="intro">
+    <p>Welcome to our point of view. Check out the links.</p>
+  </section>
+
+  <section class="socials">
+    <a href="https://youtube.com" target="_blank">YouTube</a>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://spotify.com" target="_blank">Spotify</a>
+    <a href="https://music.apple.com" target="_blank">Apple Music</a>
+  </section>
+
+  <!-- Placeholder sections for links -->
+  <section id="merch" class="intro">
+    <h2>Merch</h2>
+    <p>Coming soon: Strafe Records exclusive streetwear and gear.</p>
+  </section>
+
+  <section id="beats" class="intro">
+    <h2>Beats for Sale</h2>
+    <p>Industry-quality beats made for artists on the come-up. Licensing options available.</p>
+  </section>
+
+  <section id="studio" class="intro">
+    <h2>Studio Sessions</h2>
+    <p>Book your time at Strafe Studios. Record, mix, and master with us.</p>
+  </section>
+
+  <section id="samples" class="intro">
+    <h2>Audio Samples</h2>
+    <p>Free and premium sample packs for your next production.</p>
+  </section>
+
+  <section id="contact" class="intro">
+    <h2>Contact Us</h2>
+    <p>Email: info@straferecords.com | IG DM: @straferecords</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Strafe Records. All rights reserved.
+  </footer>
+
 </body>
 </html>
