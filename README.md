@@ -1,2 +1,2 @@
 # Shelldason.github.io
-I make sound!
+Bass and snare
